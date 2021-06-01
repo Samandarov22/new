@@ -1,8 +1,18 @@
-
+$a: 80px;
 .row{
   display: flex;
   flex-wrap: wrap;
   background-color: gray;
-  max-width: 80vh;
+  max-width: 1140px;
   margin: 0 auto;
+}
+[class^="col-"] {
+  background-color: blue;
+  padding: 20px;
+  font-size: 20px;
+  color: white;
+}
+.col-1-of-2{
+  width: calc((100% - #{ $a })/2);
+
 }

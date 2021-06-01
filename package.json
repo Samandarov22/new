@@ -1,0 +1,22 @@
+{
+  "name": "neew",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass style.scss style.css" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Samandarov22/new.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Samandarov22/new/issues"
+  },
+  "homepage": "https://github.com/Samandarov22/new#readme",
+  "dependencies": {
+    "node-sass": "^6.0.0"
+  }
+}
